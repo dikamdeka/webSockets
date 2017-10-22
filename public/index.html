@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+     <script src="libraries/p5.js"></script>
+     <script src="libraries/p5.dom.js"></script> 
+     <script src="libraries/p5.sound.js"></script> 
+     <script src="sketch.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+   
+
+     <style type = "text/css"> 
+       
+        .highlight {
+          background-color: #ccc;
+          
+          border-color: orange;
+          color: cyan;
+        }
+
+        .unhighlight {
+          background-color: #fff;
+          
+          border-color: black;
+          color: black;
+        }
+
+        #dropzone {
+          padding: 10px;
+          font-size: 16px;
+          width: 40%;
+          border: 3px dashed black;
+          display: inline;
+
+        }
+
+        #textbox {
+          font-family: arial;
+          font-size: 14px;
+          word-spacing: 5px;
+          padding: 10px;
+          margin: 10px;
+          width: 50%;
+        }
+    
+
+   
+     </style>
+  </head>
+  <body>
+
+    <div id="container">
+      
+      <input type="text" id="textbox">
+     
+    
+      <p id="dropzone">Drag and Drop Your Image</p>
+    </div>
+
+
+  </body>
+</html>
